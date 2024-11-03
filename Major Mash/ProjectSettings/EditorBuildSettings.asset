@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Table.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Player1 Wins.unity
+    guid: 90e27c3228751fa4ca4deeee56c5d2aa
+  - enabled: 1
+    path: Assets/Scenes/Player2 Wins.unity
+    guid: f65e15f011fd48f478f1517e0a635e10
   m_configObjects: {}
