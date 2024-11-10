@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Card_Button : MonoBehaviour
 {
-    public int clickableValue = 50; //how much damage a card does
+    public int clickableValue = 25; //how much damage a card does
     
     private void OnMouseDown()
     {
@@ -21,6 +21,11 @@ public class Card_Button : MonoBehaviour
     {
         // Move the card to show it has been played
         transform.position += new Vector3(-1f, 0f, 0f);
+    }
+
+    public void EnterObject() //when card is removed from the queue and neters the players hand
+    {
+       transform.position += new Vector3(0f, -1f, 0f); 
     }
 
     private void ReducePlayerValue(bool cardturn)
